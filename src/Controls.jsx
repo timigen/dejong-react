@@ -1,5 +1,4 @@
 import { useStoreState, useStoreActions } from "easy-peasy";
-import { useState } from 'react';
 
 function Controls() {
   const a = useStoreState(store => store.a);
